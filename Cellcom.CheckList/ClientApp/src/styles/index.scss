@@ -1,0 +1,14 @@
+@import '_cellcomFonts.scss';
+
+html, body{
+    height: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Aa_TypoCellcom, Arial;
+    font-size: 14px;
+    direction: rtl;
+    text-align: right;
+    background-color: #f6f7f9;
+}

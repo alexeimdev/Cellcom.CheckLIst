@@ -1,0 +1,29 @@
+.MuiExpansionPanelSummary-content {
+    cursor: auto;
+}
+
+.MuiExpansionPanelSummary-content {
+    justify-content: space-between !important;
+    align-items: center;
+    min-height: 50px !important;
+}
+
+.MuiExpansionPanelDetails-root {
+    display: block !important;
+}
+
+.MuiExpansionPanelActions-root {
+    justify-content: flex-start !important;
+    padding: 8px 24px 24px !important;
+}
+
+
+@keyframes blink-pause {
+    50% {
+        border-left-color: gray;
+    }
+}
+
+.blink-pause {
+    animation: blink-pause 1s step-start 0s infinite;
+}
